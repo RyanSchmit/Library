@@ -1,0 +1,18 @@
+* {
+	background-color: rgb(80, 54, 252);
+}
+
+.header {
+	text-align: center;
+	color: azure;
+}
+
+.btn {
+	background-color: whitesmoke;
+	color: black;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: aqua;
+}
