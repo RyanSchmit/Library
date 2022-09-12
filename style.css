@@ -26,9 +26,33 @@ input {
 	background-color: white;
 }
 
+.books {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .book {
 	background-color: white;
 	width: 200px;
 	height: 150px;
 	margin-left: 100px;
+	margin-top: 20px;
+	padding-bottom: 80px;
+	border: black 2px solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title, .pages, .author {
+	background-color: white;
+}
+
+.readBtn {
+	margin-bottom: 20px;
+	background-color: aqua;
+}
+
+.deleteBtn {
+	background-color: red;
 }
