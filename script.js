@@ -1,15 +1,16 @@
 const form = document.querySelector('.input-books');
 let booksSection = document.querySelector(".books");
 
-let myLibrary = [new Book("The Hobbit", "J.R.R. Tolkien", "295", "Not Read")];
-
-
-function Book(title, author, pages, read) {
-	this.title = title;
-	this.author = author;
-	this.pages = pages;
-	this.read = read;
+class Book {
+	constructor (title, author, pages, read) {
+		this.title = title;
+		this.author = author;
+		this.pages = pages;
+		this.read = read;
+	}
 }
+
+let myLibrary = [new Book("The Hobbit", "J.R.R. Tolkien", "295", "Not Read")];
 
 function addBookToLibrary(e) {
 	e.preventDefault();
